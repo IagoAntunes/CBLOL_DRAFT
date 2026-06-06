@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Inter:wght@350;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=JetBrains+Mono:wght@400;500;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cinzel", "Playfair Display", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Sophisticated gold glow effects */
+.gold-glow {
+  box-shadow: 0 0 15px rgba(200, 155, 60, 0.15);
+}
+.gold-glow-hover:hover {
+  box-shadow: 0 0 25px rgba(200, 155, 60, 0.3);
+}
+.teal-glow {
+  box-shadow: 0 0 15px rgba(0, 207, 188, 0.15);
+}
